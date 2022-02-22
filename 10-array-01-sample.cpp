@@ -13,7 +13,7 @@ int main()
 	for(int i=0;i<n;i++){
 	    cout << a[i] << "　";  //把陣列裡的每一個值印出來，以空白隔開
 	}	
-	for(int i=4;i>=0;i--){
+	for(int i=n-1;i>=0;i--){
 		cout << endl;
 		cout << "n:" <<a[i] << " i:" << i ;
 	} 
